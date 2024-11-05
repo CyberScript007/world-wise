@@ -1,0 +1,27 @@
+.home_page_details {
+  height: calc(100% - 51px);
+  text-align: center;
+  width: 85%;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.heading1 {
+  font-size: 4.5rem;
+  margin-bottom: 3rem;
+}
+
+.heading2 {
+  line-height: 1.5;
+  font-size: 1.9rem;
+  color: var(--color-light--1);
+  margin-bottom: 4rem;
+}
+
+.btn_start_tracking {
+  padding: 1.5rem 2.5rem;
+  font-size: 1.6rem;
+  text-transform: uppercase;
+}

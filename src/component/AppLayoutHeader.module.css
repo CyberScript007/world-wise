@@ -1,0 +1,9 @@
+.header {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 1rem;
+}
+
+.header img {
+  width: 22rem;
+}

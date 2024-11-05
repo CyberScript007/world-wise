@@ -1,0 +1,14 @@
+.homePage {
+  height: calc(100vh - 40px);
+  background-image: linear-gradient(to right, #00000083, var(--color-dark--2)),
+    url(/img/bg.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding: 3rem 5rem;
+}
+
+.heading1 {
+  font-size: 4.5rem;
+  text-align: center;
+}

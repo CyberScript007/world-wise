@@ -1,0 +1,26 @@
+.nav {
+  display: flex;
+  justify-content: center;
+}
+
+.nav ul {
+  display: flex;
+  background-color: var(--color-dark--2);
+  gap: 1rem;
+  border-radius: 0.5rem;
+}
+
+.nav a {
+  padding: 0.7rem 2rem;
+  display: inline-block;
+  text-decoration: none;
+  color: #fff;
+  font-size: 1.3rem;
+  font-weight: 500;
+  text-transform: uppercase;
+}
+
+.nav a:global(.active) {
+  background-color: var(--color-dark--0);
+  border-radius: 0.5rem;
+}

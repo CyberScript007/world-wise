@@ -1,0 +1,5 @@
+.app_layout {
+  min-height: calc(100vh - 40px);
+  display: grid;
+  grid-template-columns: 55rem 1fr;
+}

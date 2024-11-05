@@ -1,0 +1,9 @@
+.page_not_found {
+  height: 100vh;
+  background-color: var(--color-dark--2);
+  font-size: 5rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-transform: capitalize;
+}

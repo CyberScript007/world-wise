@@ -1,0 +1,103 @@
+@import url("https://unpkg.com/leaflet@1.9.4/dist/leaflet.css");
+@import url("https://fonts.googleapis.com/css2?family=Manrope:wght@200;300;400;500;600;700;800&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: inherit;
+}
+
+:root {
+  --color-brand--1: #ffb545;
+  --color-brand--2: #00c46a;
+  --color-dark--0: #242a2e;
+  --color-dark--1: #2d3439;
+  --color-dark--2: #42484d;
+  --color-light--1: #aaa;
+  --color-light--2: #ececec;
+  --color-light--3: #d6dee0;
+}
+
+html {
+  font-size: 62.5%;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Manrope", sans-serif;
+  line-height: 1.3;
+  padding: 2rem;
+  color: var(--color-light--2);
+}
+
+.btn {
+  background-color: transparent;
+  border: 0;
+  cursor: pointer;
+}
+
+.btn:focus {
+  outline: none;
+}
+
+.btn--green {
+  background-color: var(--color-brand--2);
+  color: var(--color-dark--0);
+  border-radius: 0.5rem;
+}
+
+h3 {
+  font-size: 4rem;
+  margin-bottom: 2rem;
+}
+
+.pages_style {
+  min-height: calc(100vh - 40px);
+  background-color: var(--color-dark--0);
+  padding: 3rem 5rem;
+  display: grid;
+  grid-template-rows: max-content 1fr;
+}
+
+.details {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  align-items: center;
+  width: 74%;
+  margin: 0 auto;
+  gap: 5rem;
+  padding: 6rem 0;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.paragraphy {
+  font-size: 1.6rem;
+  line-height: 1.6;
+}
+
+.paragraphy:not(:last-child) {
+  margin-bottom: 2rem;
+}
+
+.img_container {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.img_container img {
+  width: 40rem;
+  height: 40rem;
+  object-fit: cover;
+}
+
+ul {
+  list-style: none;
+}

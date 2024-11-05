@@ -1,0 +1,29 @@
+.nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.nav__logo {
+  width: 20rem;
+}
+
+.nav__list {
+  display: flex;
+  gap: 3rem;
+}
+
+.nav__link {
+  font-size: 1.5rem;
+  text-transform: uppercase;
+  text-decoration: none;
+  color: inherit;
+}
+
+.nav__link:global(.active) {
+  color: var(--color-brand--2);
+}
+
+.btn_login {
+  padding: 0.8rem 2rem;
+}

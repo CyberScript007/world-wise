@@ -1,0 +1,21 @@
+.country_item {
+  background-color: var(--color-dark--2);
+  border-radius: 0.5rem;
+  border-left: 0.5rem solid var(--color-brand--1);
+  padding: 1.5rem 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.country_item span {
+  display: inline-block;
+  margin-bottom: 1rem;
+  font-size: 2.7rem;
+  font-weight: 600;
+}
+
+.country_item h4 {
+  font-size: 1.7rem;
+}

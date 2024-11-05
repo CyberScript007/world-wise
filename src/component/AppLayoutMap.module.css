@@ -1,0 +1,30 @@
+.app_layout_map {
+  height: 100%;
+  background-color: var(--color-dark--2);
+  position: relative;
+  overflow: hidden;
+}
+
+.map {
+  height: 100%;
+  width: 100%;
+}
+
+.map :global(.leaflet-popup-content-wrapper) {
+  border-left: 5px solid var(--color-brand--2);
+  border-radius: 0.5rem;
+}
+
+:global(.leaflet-popup-content-wrapper .leaflet-popup-content) {
+  font-size: 1.4rem;
+  color: #fff;
+}
+
+.map :global(.leaflet-popup-content-wrapper),
+.map :global(.leaflet-popup-tip) {
+  background: var(--color-dark--2);
+}
+
+:global(.leaflet-container) a:global(.leaflet-popup-close-button) {
+  color: #fff;
+}
